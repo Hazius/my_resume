@@ -4,8 +4,8 @@
 
 	<div id="id_div_my_foto">
 		<h2>Павел</h2>
-		<p>Возраст: <%= Time.now.year.to_i - 1990 %> года.</p>
 		<p>Город: Липецк</p>
+		<p>Возраст: <%= Time.now.year.to_i - 1990 %> года.</p>		
 		<%= image_tag("my_foto.jpg", html_options = { class: "class_my_foto" } ) %>
 	</div>
 
@@ -25,12 +25,20 @@
 			<li>English уровень Pre-Intermediate (в процессе изучения)</li>
 			<li>Усидчивость, стремление, самообучаемость, терпеливость</li>
 		</ul>
+		<h2><%= link_to("GitHub", "https://github.com/Hazius") %></h2>
+		<br>
+		<h2>Задеплоинные приложения на Heroku:</h2>
+		<ul>
+			<li><%= link_to("Calculator for exchange", "https://calculator-for-exchange.herokuapp.com") %></li>
+			<li><%= link_to("Blog from hazius", "https://blog-from-hazius.herokuapp.com") %></li>
+		</ul>
+		
 	</div>
 
 	<div class="class_clear"></div>
 
 	<div id="id_div_about_me">
-		Обо мне и моих взглядах:
+		<h2>Обо мне:</h2>
 		<ul>
 
 			<li>1) Разработка на C# (работал 6 месяцев)

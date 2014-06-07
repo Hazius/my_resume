@@ -5,6 +5,8 @@
 $biruzovuy: #00CED1;
 $white: #ffffff;
 $black: #000000;
+$green: #008000;
+
 
 // Обертка для включения и выключения блока:
 #id_div_wrapper_window_contact_me {
@@ -32,8 +34,13 @@ $black: #000000;
 
 // Блок всего окна "Связаться со мной"
 .class_div_window_contact_me {
+
+	border-radius: 50px;
+	border: 10px solid $black;
+	box-shadow: 0 0 50px $green;
+
 	background-color: white;
-	height: 500px;
+	height: 600px;
 	width: 900px;
 	//opacity: 1.00;
 	position: fixed;
@@ -41,7 +48,7 @@ $black: #000000;
 	left:20%;
 	z-index: 150;
 	color: #000;
-	outline: 10px solid #000; //kontor bloka;
+	//outline: 10px solid green; //kontor bloka;
 
 	//display: none;
 }
@@ -51,7 +58,7 @@ $black: #000000;
 	height: 5%;
 	width: 50%;
 	margin: 0 25%;
-	background-color: #000;
+	background-color: $black;
 	font-size: 16pt;
 	text-align: center;
 	color: $white;

@@ -20,7 +20,7 @@ h2 {
 @mixin kryglue_yglu
 {
 	border-radius: 30px;
-	box-shadow: 0 0 300px #008000;
+	box-shadow: 0 0 300px $green;
 }
 
 .class_message_success {
@@ -53,7 +53,7 @@ h2 {
 #id_div_skills {
 	margin-left: 500px;
 	width: 500px;
-	height: 450px;
+	height: 550px;
 	@include kontor_bloka;
 }
 
@@ -68,14 +68,14 @@ h2 {
 #id_my_information {
 	float: left;
 	width: 500px;
-	height: 500px;
+	height: 600px;
 	//text-align: center;	
 	@include kontor_bloka;
 }
 
 #id_short_about_me {
 	width: 200px;
-	height: 500px;
+	height: 100%;
 	float: left;
 	text-align: center;	
 	margin-left: 50px;
@@ -85,7 +85,7 @@ h2 {
 .class_my_foto {
   	width: 200px;
 	height: 250px;   
-	//margin-left: 50px;
+	//margin-left: 50px;	
 }
 
 #id_bt_contact_me {
@@ -94,6 +94,7 @@ h2 {
 	@include kontor_bloka;
 
 	&:hover {
-		cursor: pointer;
+		cursor: pointer;		
+		height: 290px; 
 	}
 }

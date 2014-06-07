@@ -4,6 +4,9 @@
 
 $zolotoi: #FAA21A;
 $black: #000000;
+$green: #008000;
+$red: #FF0000;
+
 
 h2 {
 	margin: 0;
@@ -20,23 +23,20 @@ h2 {
 	box-shadow: 0 0 300px #008000;
 }
 
-
-.class_my_foto {
-  	width: 200px;
-	height: 250px;   
+.class_message_success {
+	color: $green;
 }
+
+.class_message_error {
+	color: $red;
+}
+
 
 #id_div_wrapper {
 	@include kryglue_yglu;
-	//width: 1200px;
+	width: 1000px;
 	//height: 700px;
-	margin: 60px 200px;
-}
-
-#id_div_about_me {	
-	width: 500px;
-	margin: auto;
-	//@include kontor_bloka;
+	margin: 100px auto;
 }
 
 .class_clear {	
@@ -57,10 +57,44 @@ h2 {
 	@include kontor_bloka;
 }
 
-#id_div_my_foto {
-	text-align: center;
+#id_div_story_about_me {
+	width: 800px;
+	//height: 500px;
+	margin: 0 auto;
+}
+
+//Информация обо мне (данные, аватар и кнопка связи со мной)
+
+#id_my_information {
 	float: left;
 	width: 500px;
 	height: 500px;
+	//text-align: center;	
 	@include kontor_bloka;
 }
+
+#id_short_about_me {
+	width: 200px;
+	height: 500px;
+	float: left;
+	text-align: center;	
+	margin-left: 50px;
+	@include kontor_bloka;
+}
+
+.class_my_foto {
+  	width: 200px;
+	height: 250px;   
+	//margin-left: 50px;
+}
+
+#id_bt_contact_me {
+	width: 250px;
+	height: 250px;
+	@include kontor_bloka;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+

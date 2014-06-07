@@ -1,0 +1,7 @@
+<%= form_tag(send_email_path, method: "post") do %>
+	Ваш email:<br>
+	<%= email_field_tag(:email, nil, placeholder: "Введите свой Email") %><br>
+	Текст сообщения:<br>
+	<%= text_area_tag(:msg, nil, cols: "60", rows: "12") %><br>
+	<%= submit_tag("Отправить") %>
+<% end %>

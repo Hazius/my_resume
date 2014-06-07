@@ -1,0 +1,89 @@
+//////
+// ПОЯВЛЯЮЩИЕСЯ БЛОК С ИНФОРМАЦИЕЙ ДЛЯ СВЯЗИ СО МНОЙ:
+//////
+
+$biruzovuy: #00CED1;
+$white: #ffffff;
+$black: #000000;
+
+// Обертка для включения и выключения блока:
+#id_div_wrapper_window_contact_me {
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+}
+
+//Блок затемнения фона:
+.class_div_darkening_background_for_window_contact_me {
+	background: #000;
+	height: 100%;
+	width: 100%;
+	opacity: 0.80;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;	
+	//display: none;
+}
+
+// Блок всего окна "Связаться со мной"
+.class_div_window_contact_me {
+	background-color: white;
+	height: 500px;
+	width: 900px;
+	//opacity: 1.00;
+	position: fixed;
+	top:10%;
+	left:20%;
+	z-index: 150;
+	color: #000;
+	outline: 10px solid #000; //kontor bloka;
+
+	//display: none;
+}
+
+// Кнопка Close:
+#id_bt_close_in_window_contact_me {
+	height: 5%;
+	width: 50%;
+	margin: 0 25%;
+	background-color: #000;
+	font-size: 16pt;
+	text-align: center;
+	color: $white;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+
+	&:hover {
+		cursor: pointer;
+		color: $biruzovuy;
+	}
+}
+
+// Контент блока:
+.class_div_content_in_window_contact_me {
+	//padding: 10%;
+	height: 95%;
+	width: 100%;
+	font: 30pt;
+
+}
+
+#id_div_my_contacts {
+	margin-left: 50px;
+	float: left;
+	height: 400px;
+	width: 200px;
+	outline: 3px solid $black; //kontor bloka;
+}
+
+#id_div_form_send_email {
+	height: 400px;
+	width: 600px;
+	margin-left: 280px;
+	outline: 3px solid $black; //kontor bloka;
+}

@@ -88,13 +88,15 @@ h2 {
 	//margin-left: 50px;	
 }
 
+
 #id_bt_contact_me {
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	@include kontor_bloka;
 
 	&:hover {
 		cursor: pointer;		
-		height: 290px; 
+		width: 250px;
+		height: 250px;
 	}
 }

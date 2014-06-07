@@ -40,8 +40,8 @@ $green: #008000;
 	box-shadow: 0 0 50px $green;
 
 	background-color: white;
-	height: 600px;
-	width: 900px;
+	height: 500px;
+	width: 800px;
 	//opacity: 1.00;
 	position: fixed;
 	top:10%;
@@ -85,12 +85,11 @@ $green: #008000;
 	float: left;
 	height: 400px;
 	width: 200px;
-	outline: 3px solid $black; //kontor bloka;
+	border-right: 3px solid $black;	
 }
 
 #id_div_form_send_email {
 	height: 400px;
 	width: 600px;
 	margin-left: 280px;
-	outline: 3px solid $black; //kontor bloka;
 }

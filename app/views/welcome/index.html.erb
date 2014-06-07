@@ -12,14 +12,13 @@
 
 	<div id="id_my_information">	
 
-		<div id="id_short_about_me" >
-			<h2>Hazius (Павел)</h2>
-			<p>Город: Липецк</p>
+		<div id="id_short_about_me">
+			<h2>Hazius (Павел)</h2>		
 			<p>Возраст: <%= Time.now.year.to_i - 1990 %> года.</p>
 			<%= image_tag("my_foto.jpg", html_options = { class: "class_my_foto" } ) %>		
 		</div>
 
-		<%= image_tag("bt_contact_me.png", html_options = { id: "id_bt_contact_me" }) %>
+		<%= image_tag("bt_contact_me.png", html_options = { id: "id_bt_contact_me" }) %>			
 
 		<div class="class_clear"></div>
 
@@ -30,8 +29,10 @@
 	</div>
 
 	<div id="id_div_skills">
-		Опыт применения:
-		<ul>			
+		<ul>	
+			<li>Образование: законченное высшее (профильное):<br>"Автоматизированные системы управления"</li>
+			<li>Используемая ОС: Ubuntu</li>	
+			<li>English: уровень Pre-Intermediate</li>		
 			<li>Ruby on Rails</li>	
 			<li>HTML</li>
 			<li>SCSS</li>
@@ -39,16 +40,16 @@
 			<li>AJAX</li>
 			<li>RSpec+Capybara</li>
 			<li>Git+GitHub</li>
-			<li>C#</li>		
-			<li>Используемая ОС: Ubuntu</li>	
-			<li>English: уровень Pre-Intermediate</li>			
+			<li>C#</li>	
 		</ul>
 		<h2><%= link_to("GitHub", "https://github.com/Hazius") %></h2>
 		<br>
 		<h2>Задеплоинные приложения на Heroku:</h2>
 		<ul>
-			<li><%= link_to("Calculator for exchange", "https://calculator-for-exchange.herokuapp.com") %></li>
-			<li><%= link_to("Blog from hazius", "https://blog-from-hazius.herokuapp.com") %></li>
+			<li><%= link_to("Calculator for exchange", "https://calculator-for-exchange.herokuapp.com") %>
+			<br>(простая реализация формулы)</li>
+			<li><%= link_to("Blog from hazius", "https://blog-from-hazius.herokuapp.com") %>
+			<br>(движок блога с механизмом аутентификации и авторизации)</li>
 		</ul>
 		
 	</div>
@@ -79,7 +80,7 @@
 			</li>
 
 			<li>4) И вот, наконец, мы подобрались к RoR.<br>
-					Активно изучаю 5 месяцев. Перелопатил <%= link_to("RailsTutorial", "http://railstutorial.ru/") %>.
+					Активно изучаю 5 месяцев. 
 			</li>
 
 		</ul>

@@ -1,0 +1,131 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+#id_div_wrapper_window_contact_me {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0; }
+
+.class_div_darkening_background_for_window_contact_me {
+  background: #000;
+  height: 100%;
+  width: 100%;
+  opacity: 0.80;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0; }
+
+.class_div_window_contact_me {
+  border-radius: 50px;
+  border: 10px solid black;
+  box-shadow: 0 0 50px green;
+  background-color: white;
+  height: 500px;
+  width: 800px;
+  position: fixed;
+  top: 10%;
+  left: 20%;
+  z-index: 150;
+  color: #000; }
+
+#id_bt_close_in_window_contact_me {
+  height: 5%;
+  width: 50%;
+  margin: 0 25%;
+  background-color: black;
+  font-size: 16pt;
+  text-align: center;
+  color: white;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px; }
+  #id_bt_close_in_window_contact_me:hover {
+    cursor: pointer;
+    color: darkturquoise; }
+
+.class_div_content_in_window_contact_me {
+  height: 95%;
+  width: 100%;
+  font: 30pt; }
+
+#id_div_my_contacts {
+  margin-left: 50px;
+  float: left;
+  height: 400px;
+  width: 200px;
+  border-right: 3px solid black; }
+
+#id_div_form_send_email {
+  height: 400px;
+  width: 600px;
+  margin-left: 280px; }
+h2 {
+  margin: 0; }
+
+.class_message_success {
+  color: green; }
+
+.class_message_error {
+  color: red; }
+
+#id_div_wrapper {
+  border-radius: 30px;
+  box-shadow: 0 0 300px green;
+  width: 1000px;
+  margin: 100px auto; }
+
+.class_clear {
+  clear: both; }
+
+#id_div_desired_rate {
+  margin-left: 500px;
+  width: 500px;
+  height: 50px; }
+
+#id_div_skills {
+  margin-left: 500px;
+  width: 500px;
+  height: 550px; }
+
+#id_div_story_about_me {
+  width: 800px;
+  margin: 0 auto; }
+
+#id_my_information {
+  float: left;
+  width: 500px;
+  height: 600px; }
+
+#id_short_about_me {
+  width: 200px;
+  height: 100%;
+  float: left;
+  text-align: center;
+  margin-left: 50px; }
+
+.class_my_foto {
+  width: 200px;
+  height: 250px; }
+
+#id_bt_contact_me {
+  width: 200px;
+  height: 200px; }
+  #id_bt_contact_me:hover {
+    cursor: pointer;
+    width: 250px;
+    height: 250px; }
